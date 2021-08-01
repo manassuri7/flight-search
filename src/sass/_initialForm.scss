@@ -1,0 +1,215 @@
+.formContainer {
+    background-image: url(../images/bckgrdImg.png);
+    background-size: cover;
+    background-position: 50% 80%;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+        align-items: center;
+        justify-content: center;        
+    margin-bottom: 18vh;
+
+    .initialForm {
+        background-color: white;
+        font-size: 1.5rem;
+        margin: 5rem 0;
+        width: 70%;
+        border-radius: 1rem;
+        padding-top: 2rem;
+        margin-bottom: -25rem;
+        z-index: 1;
+        .inputs-div {
+            display: flex;
+                justify-content: center;
+                align-items: flex-start;
+            margin: 1rem;
+        }
+
+        .formInput{
+            margin: 0 2rem;
+            min-width: 8rem;
+            display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+            label {
+                font-weight: bold;
+                text-align: center;
+                margin-bottom: .5rem;
+            }
+
+            .selectBox {
+                border-radius: 1rem;
+                border: gray solid 1px;
+                font-size: 1.1rem;
+                width: 12rem;
+                padding: .45rem;
+                cursor: pointer;
+            }
+        }
+
+        .switch-container{
+        width: 20rem;
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            .switchTittle {
+                font-weight: bold;
+                padding-left: 3rem;
+                    .gray{
+                    color: #ccc;
+                    transition: .5s;
+                }
+            }
+
+            .smallSwitchTittle{
+                font-size: 1rem;
+                margin-top: 1rem;   
+
+                font-weight: bold;
+                    .gray{
+                    color: #ccc;
+                    transition: .5s;
+                }
+            }
+
+            .switch {
+                margin-top: .25rem;
+                position: relative;
+                display: inline-block;
+                width: 60px;
+                height: 30px;
+            }
+            
+            .switch input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+            
+            .slider {
+                position: absolute;
+                cursor: pointer;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #ccc;
+                -webkit-transition: .5s;
+                transition: .5s;
+            }
+            
+            .slider:before {
+                position: absolute;
+                content: "";
+                height: 22px;
+                width: 22px;
+                left: 4px;
+                bottom: 4px;
+                background-color: white;
+                -webkit-transition: .5s;
+                transition: .5s;
+            }
+            
+            input:checked + .slider {
+                background-color: #FDBE14;
+            }
+            
+            input:focus + .slider {
+                box-shadow: 0 0 1px #FDBE14;
+            }
+            
+            input:checked + .slider:before {
+                -webkit-transform: translateX(29px);
+                -ms-transform: translateX(29px);
+                transform: translateX(29px);
+            }
+            
+            .slider.round {
+                border-radius: 34px;
+            }
+            
+            .slider.round:before {
+                border-radius: 50%;
+            }
+    }
+
+    .small-switch-container{
+
+            .switch {
+                height: 22px;
+            }
+
+            .slider:before {
+                height: 16px;
+                width: 16px;
+                bottom: 3px;
+            }
+            
+            input:checked + .slider:before {
+                -webkit-transform: translateX(35px);
+                -ms-transform: translateX(35px);
+                transform: translateX(35px);
+            }
+    }
+    
+    .btnAndError-div {
+        margin-bottom: 2rem;
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+            p {
+                text-align: center;
+                max-width: 25rem;
+                margin: .5rem;
+            }
+    }
+}
+
+    .formInput-display-none {
+        margin: 0 2rem;
+        min-width: 8rem;
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        display: none
+    }
+
+    .formInput-display-block {
+        margin: 0 2rem;
+        min-width: 8rem;
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        display: block ;
+
+        .labelAndSelector-container {
+            display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+            .desiredReturnDate-label {
+                font-weight: bold;
+                text-align: center;
+                margin-bottom: .5rem;
+            }
+        
+            .selectBox {
+                border-radius: 1rem;
+                border: gray solid 1px;
+                font-size: 1.1rem;
+                width: 12rem;
+                padding: .45rem;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+@media screen and (max-width: 767px) {
+  nav {
+    width: 100%;
+  }
+  nav .logo {
+    width: 5rem;
+    margin: -1rem 0 0rem .25rem;
+  }
+  nav .companyName {
+    text-align: right;
+    line-height: 1.5rem;
+    margin-left: .5rem;
+  }
+  nav .companyName .tittle {
+    font-size: 2.35rem;
+  }
+  nav .companyName .subTittle {
+    font-size: 1.10rem;
+  }
+  .initialForm {
+    margin: 0;
+  }
+  .initialForm .inputs-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+  }
+  .initialForm .formInput {
+    margin: .5rem auto;
+  }
+  .initialForm .formInput label {
+    margin-bottom: .25rem;
+  }
+  .initialForm .formInput .selectBox {
+    margin-bottom: .5rem;
+  }
+  .initialForm .btnAndError-div {
+    text-align: center;
+  }
+  .initialForm p {
+    font-size: 1.25rem;
+    max-width: 20rem;
+    margin-bottom: .5rem;
+  }
+  footer {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer .company_identity {
+    margin: 0 0 0 1rem;
+  }
+  footer .company_identity .footer_logo {
+    width: 5rem;
+  }
+  footer .company_identity .companyName {
+    line-height: 1.5rem;
+    margin: 1rem 0 0 .5rem;
+  }
+  footer .company_identity .companyName .tittle {
+    font-size: 2.35rem;
+  }
+  footer .company_identity .companyName .subTittle {
+    font-size: 1.1rem;
+    margin-right: .2rem;
+  }
+  footer .socialNetwork {
+    font-size: 1.5rem;
+    margin: .75rem;
+  }
+}
+/*# sourceMappingURL=mediaQuery.css.map */

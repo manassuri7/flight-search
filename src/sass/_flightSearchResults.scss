@@ -1,0 +1,64 @@
+.searchResult {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    padding: 2rem;
+}
+
+.flightSelected {
+    background-color: #ccc;
+    border: solid gray 2px;
+    margin: 1.5rem;
+    padding: 0;
+    box-shadow: 0px 0px 5px 2px gray;
+    -webkit-box-shadow: 0px 0px 5px 2px gray;
+    -moz-box-shadow: 0px 0px 5px 2px gray;
+}
+
+.flight {
+    text-align: left;
+    border: black solid 2px;
+    border-radius: 1rem;
+    padding: .5rem;
+    margin: .5rem;
+
+    .row {
+        display:  flex;
+            justify-content: center;
+            align-items: center;
+        margin: 1rem;
+        font-size: 1rem;
+
+            p {
+                margin: 0 1.5rem;
+
+                span {
+                    font-weight: bold;
+                }
+            }
+
+            .btn {
+                margin: 0;
+            }
+    }
+}
+
+.searchParameters {
+    border: none;
+}
+
+.NoAvailableFlightsError {
+    text-align: center;
+    padding: 1.5rem;
+
+    img {
+        width: 20rem;
+        margin: 1.5rem;
+        transition: 1s;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+}

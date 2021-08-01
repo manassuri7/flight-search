@@ -1,0 +1,32 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FDBE14;
+  padding: 1rem 0 0 1rem;
+}
+
+nav .logo {
+  width: 7rem;
+  margin: -1.5rem 0 -.5rem 1rem;
+  cursor: pointer;
+}
+
+nav .companyName {
+  text-align: right;
+  line-height: 2rem;
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+
+nav .companyName .tittle {
+  font-family: 'Dosis', sans-serif;
+  font-size: 3rem;
+}
+
+nav .companyName .subTittle {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5rem;
+  margin-right: .1rem;
+}
+/*# sourceMappingURL=Navbar.css.map */

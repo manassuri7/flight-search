@@ -1,0 +1,263 @@
+.initialForm {
+  font-size: 1.5rem;
+  margin: 5rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.initialForm .inputs-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 1rem;
+}
+
+.initialForm .formInput {
+  margin: 0 2rem;
+  min-width: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.initialForm .formInput label {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+.initialForm .formInput .selectBox {
+  border-radius: 1rem;
+  border: gray solid 1px;
+  font-size: 1.1rem;
+  width: 12rem;
+  padding: .45rem;
+  cursor: pointer;
+}
+
+.initialForm .switch-container {
+  width: 17rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.initialForm .switch-container .switchTittle {
+  font-weight: bold;
+}
+
+.initialForm .switch-container .switchTittle .gray {
+  color: #ccc;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.initialForm .switch-container .small-tittle {
+  font-size: 1rem;
+  width: 20rem;
+  margin-top: 1rem;
+}
+
+.initialForm .switch-container .switch {
+  margin-top: .25rem;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
+.initialForm .switch-container .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.initialForm .switch-container .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.initialForm .switch-container .slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.initialForm .switch-container input:checked + .slider {
+  background-color: #FDBE14;
+}
+
+.initialForm .switch-container input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #FDBE14;
+          box-shadow: 0 0 1px #FDBE14;
+}
+
+.initialForm .switch-container input:checked + .slider:before {
+  -webkit-transform: translateX(29px);
+  transform: translateX(29px);
+}
+
+.initialForm .switch-container .slider.round {
+  border-radius: 34px;
+}
+
+.initialForm .switch-container .slider.round:before {
+  border-radius: 50%;
+}
+
+.initialForm .small-switch-container .switchTittle {
+  font-size: 1rem;
+  width: 20rem;
+  margin-top: 1rem;
+}
+
+.initialForm .small-switch-container .switch {
+  height: 22px;
+}
+
+.initialForm .small-switch-container .slider:before {
+  height: 16px;
+  width: 16px;
+  bottom: 3px;
+}
+
+.initialForm .small-switch-container input:checked + .slider:before {
+  -webkit-transform: translateX(35px);
+  transform: translateX(35px);
+}
+
+.initialForm .btnAndError-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formInput-display-none {
+  margin: 0 2rem;
+  min-width: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.formInput-display-block {
+  margin: 0 2rem;
+  min-width: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: block;
+}
+
+.formInput-display-block .labelAndSelector-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formInput-display-block .labelAndSelector-container .desiredReturnDate-label {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+.formInput-display-block .labelAndSelector-container .selectBox {
+  border-radius: 1rem;
+  border: gray solid 1px;
+  font-size: 1.1rem;
+  width: 12rem;
+  padding: .45rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=InitialForm.css.map */

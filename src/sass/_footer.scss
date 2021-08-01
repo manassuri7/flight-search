@@ -1,0 +1,50 @@
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+  .company_identity {
+    display: flex;
+    margin: 0;
+    cursor: pointer;
+
+    .footer_logo {
+      width: 7rem;
+    }
+      
+    .companyName {
+      text-align: right;
+      line-height: 2rem;
+      margin: 1.5rem 0 0 1.5rem;
+
+      .tittle {
+        font-family: 'Dosis', sans-serif;
+        font-size: 3rem;
+      }
+      
+      .subTittle {
+        font-family: 'Dosis', sans-serif;
+        font-size: 1.5rem;
+        margin-right: .2rem;
+      }
+    }
+  }
+
+  .socialNetwork {
+    color: white;
+    font-size: 2rem;
+    margin: 0 1.5rem;
+    -webkit-transition: .5s;
+    transition: .5s;
+
+    &:hover {
+      color: #FDBE14;
+    }
+  }
+}
+

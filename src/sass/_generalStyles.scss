@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mainContainer {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.btn {
+    font-size: 1.25rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    padding: 0 .5rem;
+    border: solid black 2px;
+    cursor: pointer; 
+}
+
+.btn-primary {
+    background-color: #FDBE14;
+    transition: .5s;
+
+    &:hover {
+        background-color: #e4a700;
+    }
+}
+
+.btn-secondary {
+    background-color: #ccc;
+    transition: .5s;
+
+    &:hover {
+        background-color: rgb(155, 155, 155);
+    }
+}
+
+.displayNone {
+    display: none;
+}
+
+.cumbanchaClass {
+    display: block;
+    width: 10rem;
+}

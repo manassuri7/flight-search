@@ -1,0 +1,54 @@
+footer {
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .company_identity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  cursor: pointer;
+}
+
+footer .company_identity .footer_logo {
+  width: 7rem;
+}
+
+footer .company_identity .companyName {
+  text-align: right;
+  line-height: 2rem;
+  margin: 1.5rem 0 0 1.5rem;
+}
+
+footer .company_identity .companyName .tittle {
+  font-family: 'Dosis', sans-serif;
+  font-size: 3rem;
+}
+
+footer .company_identity .companyName .subTittle {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5rem;
+  margin-right: .2rem;
+}
+
+footer .socialNetwork {
+  color: white;
+  font-size: 2rem;
+  margin: 0 1.5rem;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+footer .socialNetwork:hover {
+  color: #FDBE14;
+}
+/*# sourceMappingURL=Footer.css.map */
